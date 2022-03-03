@@ -7,7 +7,7 @@ const mysql = require("mysql2");
 var pool = mysql.createPool({
   host: "localhost",
   user: "root",
-  password: "password123",
+  password: "Password123",
   database: "nginx",
 });
 
